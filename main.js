@@ -93,12 +93,7 @@ function shaking(){
 
 
 
-/*  4 focus */
-
-
-
-
-
+/* 4 focus */
 
 
 let focusanimationn = document.querySelector('a[href="#sprint-5"]')
@@ -110,6 +105,19 @@ function colorchang(){
 
 
 }
+
+/* 5 mouse over */
+
+ let mouseoverr = document.querySelector('a[href="#fix"]')
+
+ mouseoverr.addEventListener('pointerover', textchange )
+
+ function textchange(){
+
+ mouseoverr.textContent = 'houdoe'
+
+ }
+
 
 
 
