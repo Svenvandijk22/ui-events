@@ -88,3 +88,28 @@ function shaking(){
   shakeanimation.classList.toggle('shake')
 }
 
+
+
+
+
+
+/*  4 focus */
+
+
+
+
+
+
+
+let focusanimationn = document.querySelector('a[href="#sprint-5"]')
+
+focusanimationn.addEventListener('focus', colorchang)
+
+function colorchang(){
+  focusanimationn.classList.toggle('focusbutton')
+
+
+}
+
+
+

@@ -185,3 +185,28 @@ a[href="#design"] {
   100%{rotate: 0deg;}
 
 }
+
+
+/* 4 focus*/
+
+
+.focusbutton{
+   animation-name:focusanimation ;
+   animation-duration:2s ;
+   animation-iteration-count: 1;
+
+
+
+
+}
+
+
+@keyframes focusanimation{
+
+  0%{ translate: 0 ;
+   }
+
+  50%{background-color: black; transition: 0.4s;}
+
+  100%{background-color: #7ce7c9;}
+}
