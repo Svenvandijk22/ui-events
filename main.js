@@ -111,12 +111,18 @@ function colorchang(){
  let mouseoverr = document.querySelector('a[href="#fix"]')
 
  mouseoverr.addEventListener('pointerover', textchange )
+ mouseoverr.addEventListener('pointerout', orgintext)
 
  function textchange(){
 
  mouseoverr.textContent = 'houdoe'
-
  }
+function orgintext(){
+   mouseoverr.textContent = 'fix'
+
+}
+
+
 
 
 
