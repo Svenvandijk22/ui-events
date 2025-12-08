@@ -133,14 +133,9 @@ a[href="#design"] {
 
 
 .movingleftright{
-
-
-    animation-name: tweedeknop ;
+  animation-name: tweedeknop ;
   animation-duration:0.8s ;
   animation-iteration-count: 1;
-
-
-
 }
 
 
@@ -160,5 +155,33 @@ a[href="#design"] {
         transform: translateY(0);
   }
 
+
+}
+
+/* 3 shake knop */
+
+.shake{
+
+  animation-name: shakebutton ;
+  animation-duration:0.8s ;
+  animation-iteration-count: 1;
+}
+
+@keyframes shakebutton{
+
+0%{ rotate: 0deg;
+  }
+
+  20%{ rotate: 5deg;}
+
+  40%{  rotate: 0deg;}
+
+  60%{ rotate:5deg ;}
+
+  80%{ rotate: 0deg;}
+  
+  90%{ rotate: 5deg;}
+   
+  100%{rotate: 0deg;}
 
 }

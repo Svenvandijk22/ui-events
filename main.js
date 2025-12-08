@@ -74,3 +74,17 @@ translateend.addEventListener('click', leftright)
 function leftright(){
   translateend.classList.toggle('movingleftright')
 }
+
+
+
+/* 3 shake */
+
+
+let shakeanimation = document.querySelector('a[href="#development"]')
+
+shakeanimation.addEventListener('dblclick', shaking)
+
+function shaking(){
+  shakeanimation.classList.toggle('shake')
+}
+
