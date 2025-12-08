@@ -66,3 +66,11 @@ function scaleToggle(){
 
 
 /* 2 & */
+
+let translateend = document.querySelector('a[href="#and"]')
+
+translateend.addEventListener('click', leftright)
+
+function leftright(){
+  translateend.classList.toggle('movingleftright')
+}

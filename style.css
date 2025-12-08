@@ -132,14 +132,12 @@ a[href="#design"] {
 
 
 
-a [href="#and"]{ 
-  animation-name: tweedeknop ;
-  animation-duration:0.8s ;
-  animation-iteration-count: 1;
-}
-
 .movingleftright{
 
+
+    animation-name: tweedeknop ;
+  animation-duration:0.8s ;
+  animation-iteration-count: 1;
 
 
 
@@ -149,11 +147,11 @@ a [href="#and"]{
 @keyframes tweedeknop {
 
   0% {
-        transform: translateY(0);
+        transform: translatey(0);
   }
   50%{
 
-        transform: translateY(10px);
+        transform: translatey(10px);
 
   }
 
