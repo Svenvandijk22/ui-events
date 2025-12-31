@@ -140,6 +140,27 @@ function turningthe (){
 
 
 
+let flipLink = document.querySelector('a[href="#flow"]')
+
+flipLink.addEventListener("mousedown", flipDownHandler)
+flipLink.addEventListener("mouseup", flipUpHandler)
+
+
+function flipDownHandler() {
+  flipLink.classList.add("flip")
+}
+
+function flipUpHandler() {
+  flipLink.classList.remove("flip")
+}
+
+flipLink.addEventListener("animationend", function(){
+  flipLink.classList.remove("flip")
+})
+
+
+
+
 
 
 
