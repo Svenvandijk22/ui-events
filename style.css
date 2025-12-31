@@ -226,5 +226,55 @@ a[href="#design"] {
 }
 
 
+/* 6 pointerover */
+
+
+.pointeroutanimation{
+
+   animation-name:pointerroutanimation ;
+   animation-duration:2s ;
+   animation-iteration-count: 1;
+
+
+}
+
+
+@keyframes pointerroutanimation{
+
+ 
+ 0%{
+  rotate:0turn;
+} 
+100%{
+ rotate:1turn;}
+
+
+ }
+
+
+/* 7  */
+
+.mousedownmouseupanimation{
+
+animation-name: ;
+
+}
+
+@keyframes rotateheen{
+
+  0%{rotate: 0deg() ;}
+
+
+  100%{rotate: ;}
+
+
+
+
+
+}
+
+
+
+
 
 

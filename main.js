@@ -45,7 +45,6 @@ let scalefrontend = document.querySelector('a[href="#frontend"]')
 console.log (scalefrontend)
 
 /* stap 2 event toevoegen*/
-
 scalefrontend.addEventListener('click', scaleToggle)
 scalefrontend.addEventListener('animationend', scaleToggle)
 
@@ -121,6 +120,32 @@ function orgintext(){
    mouseoverr.textContent = 'fix'
 
 }
+
+
+
+/* 6 pointerout*/
+
+let pointeroutthe = document.querySelector('a[href="#the"]')
+
+pointeroutthe.addEventListener('pointerout', turningthe )
+
+function turningthe (){
+
+  pointeroutthe.classList.toggle('pointeroutanimation')
+
+}
+
+
+/* 7 flow */
+
+
+
+
+
+
+
+
+
 
 
 
