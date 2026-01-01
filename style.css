@@ -275,8 +275,18 @@ a[href="#design"] {
   }  
 }
 
+/* 8 */
+.user-a {
+  color: orange;  
+}
 
+.user-h {
+  color: palegreen;
+}
 
+.user-m {
+  color: palevioletred;
+}
 
 
 

@@ -160,8 +160,20 @@ flipLink.addEventListener("animationend", function(){
 
 
 
+/* 8 user */
+
+let userLink = document.querySelector('a[href="#user"]')
 
 
+document.addEventListener("keyup", function (event) {
+
+  userLink.classList.remove("user-a", "user-h", "user-m")
+
+  let letter = event.key.toLowerCase()
+
+
+  userLink.classList.add("user-" + letter)
+})
 
 
 
