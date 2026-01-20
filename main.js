@@ -178,7 +178,29 @@ document.addEventListener("keyup", function (event) {
 
 
 
+/* 9 interface */
 
+let interfaceLink = document.querySelector('a[href="#interface"]')
+
+// Stap 2: addEventListener event.key (keydown)
+document.addEventListener('keydown', inflateHandler)
+document.addEventListener('keyup', deflateHandler)
+
+
+// Stap 3: (Callback functie met) class toevoegen met toggle
+function inflateHandler(event) {
+  if (event.key === "b") {
+    interfaceLink.classList.add('ballon');
+    // console.log("B key was pressed!");
+  }
+}
+
+function deflateHandler(event) {
+  if (event.key === "b") {
+    interfaceLink.classList.remove('ballon');
+    // console.log("B key was pressed!");
+  }
+}
 
 
 
