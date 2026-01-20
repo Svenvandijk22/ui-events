@@ -302,6 +302,16 @@ a[href="#interface"] {
   
 }
 
+/* 10 events*/
+a[href="#events"] {
+  transition:
+    font-size 3s ease;
+}
+
+.font-wheel {
+  font-size: 3em;
+}
+
 
 
 

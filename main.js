@@ -191,19 +191,41 @@ document.addEventListener('keyup', deflateHandler)
 function inflateHandler(event) {
   if (event.key === "b") {
     interfaceLink.classList.add('ballon');
-    // console.log("B key was pressed!");
+    
   }
 }
 
 function deflateHandler(event) {
   if (event.key === "b") {
     interfaceLink.classList.remove('ballon');
-    // console.log("B key was pressed!");
+  
   }
 }
 
 
+/*  10 events */
+
+let eventsLink = document.querySelector('a[href="#events"]')
 
 
+document.addEventListener('wheel', wheelUpHandler)
+document.addEventListener('wheel', wheelDownHandler)
+
+
+function wheelUpHandler(event) {
+  if (event.deltaY < 0) {
+    eventsLink.classList.add('font-wheel');
+
+    
+  }
+}
+
+function wheelDownHandler(event) {
+  if (event.deltaY > 0) {
+    eventsLink.classList.remove('font-wheel');
+
+   
+  }
+}
 
 
